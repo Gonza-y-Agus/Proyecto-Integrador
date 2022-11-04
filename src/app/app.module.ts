@@ -62,16 +62,7 @@ import { EditProyectoComponent } from './components/proyecto/edit-proyecto.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({
-      "backgroundColor": "#F1F1F1",
-      "backgroundPadding": -18,
-      "radius": 60,
-      "toFixed": 2,
-      "outerStrokeWidth": 10,
-      "outerStrokeColor": "#FF6347",
-      "innerStrokeColor": "#32CD32",
-      "innerStrokeWidth": 1,
-      "startFromZero": false}),
+    NgCircleProgressModule.forRoot({}),
       HttpClientModule,
       FormsModule,
       provideFirebaseApp(() => initializeApp(environment.firebase)),

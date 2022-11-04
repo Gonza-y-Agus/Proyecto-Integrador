@@ -1,0 +1,43 @@
+.row{
+    background-image: url(../../../assets/FondoForm.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    width: 400px;
+    background-color: #240303;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-control {
+    width: 100%;
+    background: #240303;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #bfafafba;
+    color: #b4a5a5;
+    margin-top: 8px;
+}
+form label {
+    color: white;
+}
+form button{
+    width: 100%;
+    background: #a00505be;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    margin-left: 0px;
+}
